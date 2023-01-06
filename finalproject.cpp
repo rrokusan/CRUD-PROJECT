@@ -1,11 +1,3 @@
-//group members: fernandez, 
-
-#include <iostream>
-#include <cstring>
-#include <fstream>
-
-using namespace std;
-
 const int maxrow = 100;
 
 string UserID[maxrow]	= {};
