@@ -118,6 +118,9 @@ void deleteList(string check, string option){
 	}
 	cout<< endl << "................................................." << endl << endl;
 }
+
+//fernandez
+
 void updateList(string check, string option){//update list function
 	string name;
 	string wish;
@@ -193,7 +196,7 @@ void checkList(string check){//checklist function
 			counter++;
 			cout << counter << "	|" << UserID[i] << "	|" << UserName[i] << "		" << UserWish[i] << addcoma << within[i] << addcoma1 << within1[i];
 			cout << endl;
-		}
+		} //fernandez
 	}
 	if (counter == 0){
 		system("CLS");
@@ -328,6 +331,8 @@ void deletewithin(string check){//deletewithin function
 	}
 	cout<< endl << "................................................." << endl << endl;
 }
+
+//fernandez
 void updatewithin(string check){//updatewithin function
 	string wish;
 	
